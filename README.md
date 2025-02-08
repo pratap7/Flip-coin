@@ -17,11 +17,11 @@ The Flip Coin App is a simple and interactive application that simulates a coin 
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/flip-coin-app.git
+   git clone https://github.com/yourusername/Flip-coin.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd flip-coin-app
+   cd flip-coin
    ```
 3. Open `index.html` in a web browser.
 
