@@ -57,12 +57,13 @@
 <body>
     <h1 id="result"></h1>
     <img id="coin" src="front.png" alt="Coin">
-    <button onclick="flipCoin()">Flip</button>
+    <button onclick="flipCoin()">Flip the Coin</button>
     
-    <audio id="flipSound" src="https://www.soundjay.com/button/sounds/button-16.mp3" preload="auto"></audio>
+    <audio id="flipSound" src="coin-flip-88793.mp3" preload="auto"></audio>
     
     <script>
         function flipCoin() {
+            document.getElementById('result').innerHTML = '';
             const coin = document.getElementById('coin');
             const resultDiv = document.getElementById('result');
             const flipSound = document.getElementById('flipSound');
